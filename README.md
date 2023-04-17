@@ -1,4 +1,5 @@
-# Graph2Edits: A Novel End-to-end Retrosynthesis Prediction via Graph Neural Network to Edit the Molecular Graph
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7837349.svg)](https://doi.org/10.5281/zenodo.7837349)
+# Retrosynthesis prediction using an end-to-end graph neural network for molecular graph editing
 Inspired by the arrow-pushing formalism in chemical reaction mechanisms, we present a novel end-to-end architecture for retrosynthesis prediction, Graph2Edits, based on graph neural network to predict the edits of the product graph in an auto-regressive manner, and sequentially generates transformation intermediates and final reactants according to the predicted edits sequence. 
 ## Environment Requirements  
 Create a virtual environment to run the code of Graph2Edits.
