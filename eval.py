@@ -97,7 +97,7 @@ def main():
             r_mol = Chem.MolFromSmiles(r)
             [a.ClearProp('molAtomMapNumber') for a in r_mol.GetAtoms()]
             r_mol = Chem.MolFromSmiles(Chem.MolToSmiles(r_mol))
-            r_smi = Chem.MolToSmiles(r_mol, isomericSmiles=False)
+            r_smi = Chem.MolToSmiles(r_mol, isomericSmiles=True)
             r_set = set(r_smi.split('.'))
 
             with torch.no_grad():
